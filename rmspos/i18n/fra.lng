@@ -1,0 +1,982 @@
+{
+	"Caisse":{
+		"title":"JL POS V10"
+	},
+	"CashDesk.HeaderPanel.GoodsCode":{
+		"text":"Code de marchandise ou code à barres"
+	},
+	"CashDesk.HeaderPanel.Memory":{
+		"text":"Mémoire maximale: XXM"
+	},
+	"CashDesk.HeaderPanel.UseMemory":{
+		"text":"Mémoire utilisée: XX%"
+	},
+	"CashDesk.HeaderPanel.ssLabel":{
+		"text":"Reçu"
+	},
+	"CashDesk.HeaderPanel.jeLabel":{
+		"text":"À recevoir"
+	},
+	"CashDesk.HeaderPanel.zlLabel":{
+		"text":"Trouver le changement"
+	},
+	"CashDesk.HeaderPanel.Cashier":{
+		"text":"Caissier: %s"
+	},
+	"CashDesk.HeaderPanel.GoodsName":{
+		"text":"Nom de la marchandise: %s"
+	},
+	"CashDesk.HeaderPanel.GoodsPrice":{
+		"text":"Prix unitaire du produit: %s"
+	},
+	"CashDesk.HeaderPanel.ScannerGoods":{
+		"text":"Veuillez scanner ou saisir le code produit"
+	},
+	"CashDesk.HeaderPanel.GoodsCodeError":{
+		"text":"Le code produit que vous avez entré est incorrect"
+	},
+	"CashDesk.HeaderPanel.GiftsModifyNumber":{
+		"text":"La quantité de cadeaux ne peut pas être modifiée!"
+	},
+	"CashDesk.HeaderPanel.GoodsOfJoint":{
+		"text":"Il existe des produits combinés pour ce produit, vendez-vous des produits combinés?"
+	},
+	"CashDesk.HeaderPanel.GoodsOfJointModifyNumber":{
+		"text":"Les produits combinés ne sont pas autorisés à modifier la quantité!"
+	},
+	"CashDesk.HeaderPanel.GoodsNumber>0":{
+		"text":"La quantité du produit doit être supérieure à 0!"
+	},
+	"CashDesk.HeaderPanel.InvalidGoods":{
+		"text":"Le produit a été supprimé, et il n·est pas permis de modifier la quantité!"
+	},
+	"CashDesk.HeaderPanel.LastOrderInfo":{
+		"text":"Informations sur la commande"
+	},
+	"CashDesk.HeaderPanel.OrderNo":{
+		"text":"Numéro unique:"
+	},
+	"CashDesk.HeaderPanel.Number":{
+		"text":"Nombre de pièces:"
+	},
+	"CashDesk.HeaderPanel.Online":{
+		"text":"Ventes réseau"
+	},
+	"CashDesk.HeaderPanel.Offline":{
+		"text":"Ventes déconnectées"
+	},
+	"CashDesk.CenterPanel.GoodsGrid":{
+		"columns":[
+			"Numéro de série",
+			"Code-barres",
+			"Nom du produit",
+			"Quantité",
+			"Prix unitaire",
+			"Montant de la remise",
+			"Montant",
+			"Numéro d·ordre promotionnel"
+		]
+	},
+	"CashDesk.CenterPanel.SalesClerk":{
+		"text":"Vendeur:"
+	},
+	"CashDesk.CenterPanel.Cashier":{
+		"text":"Caissier:"
+	},
+	"CashDesk.CenterPanel.MemberCardNumber":{
+		"text":"Numéro de carte de membre:"
+	},
+	"CashDesk.CenterPanel.MemberName":{
+		"text":"Nom du membre:"
+	},
+	"CashDesk.CenterPanel.MembershipCardType":{
+		"text":"Type de membre:"
+	},
+	"CashDesk.CenterPanel.MemberPoints":{
+		"text":"Points membres:"
+	},
+	"CashDesk.CenterPanel.MemberStoredValue":{
+		"text":"Valeur stockée de l·adhésion:"
+	},
+	"CashDesk.CenterPanel.ValidDate":{
+		"text":"Date d·entrée en vigueur:"
+	},
+	"CashDesk.CenterPanel.SystemVersion":{
+		"text":"Version:"
+	},
+	"CashDesk.CenterPanel.TotalAmount":{
+		"text":"Montant total de cette commande"
+	},
+	"CashDesk.CenterPanel.NumberOfProducts":{
+		"text":"Quantité totale de cette commande"
+	},
+	"CashDesk.CenterPanel.OrderInformation":{
+		"text":"Cette seule information"
+	},
+	"CashDesk.CenterPanel.EnterGoodsCode":{
+		"text":"Veuillez scanner ou saisir le code produit"
+	},
+	"CashDesk.CenterPanel.GoodsCodeError":{
+		"text":"Le code produit que vous avez entré est incorrect"
+	},
+	"CashDesk.CenterPanel.GiftsModifyPrice":{
+		"text":"Le prix des cadeaux ne peut pas être modifié!"
+	},
+	"CashDesk.CenterPanel.CombinationGoodsModifyPrice":{
+		"text":"Les produits combinés ne sont pas autorisés à modifier le prix!"
+	},
+	"CashDesk.CenterPanel.InvalidCommodities":{
+		"text":"Le produit a été supprimé, et il n·est pas permis de modifier le prix!"
+	},
+	"CashDesk.FooterPanel.Tip":{
+		"text":"[Esc] Quitter [F1] Règlement [F2] Vérifier les ventes [F3] Vérifier les produits [F4] Rouge [F5] Vendeur [F6] Suspendre [F7] Transfert vers [F8] VIP [F9] Obsolète 【F10 Télécharger【F11】Autre【F12】Modifier le prix"
+	},
+	"CashDesk.spbmNotNullHint":{
+		"text":"Veuillez scanner ou saisir le code produit"
+	},
+	"CashDesk.spxxDeleteHint":{
+		"text":"Voulez-vous supprimer les informations sur le produit sélectionné?"
+	},
+	"CashDesk.skQuitHint":{
+		"text":"Veuillez d·abord quitter l·interface de paiement"
+	},
+	"CashDesk.systemQuitHint":{
+		"text":"Quitter le système?"
+	},
+	"CashDesk.systemNotQuitHint":{
+		"text":"Il y a des informations sur les produits de vente, il n·est pas permis de se déconnecter du système?"
+	},
+	"CashDesk.skfsNotNullHint":{
+		"text":"L·opérateur n·a aucun moyen de collecter de l·argent et ne peut pas collecter de l·argent!"
+	},
+	"CashDesk.Tip0":{
+		"text":"Le réseau est déconnecté, démarrez les ventes hors ligne"
+	},
+	"CashDesk.Astuce1":{
+		"text":"Le réseau ou le serveur revient à la normale, et le mode de vente en ligne commence"
+	},
+	"CashDesk.Astuce2":{
+		"text":"Impossible de se connecter à Internet, continuer les ventes hors ligne"
+	},
+	"CashDesk.Tip3":{
+		"text":"Les données sur les produits avec un montant de vente de 0 ne sont pas autorisées à être importées!"
+	},
+	"LoginDialog":{
+		"title":"Connexion"
+	},
+	"LoginDialog.UserName":{
+		"text":"Utilisateur:"
+	},
+	"LoginDialog.PassWord":{
+		"text":"Mot de passe:"
+	},
+	"LoginDialog.OkButton":{
+		"text":"Connexion [L]"
+	},
+	"LoginDialog.CancelButton":{
+		"text":"Quitter [X]"
+	},
+	"LoginDialog.Tip":{
+		"text":"【F12】Commutateur de serveur"
+	},
+	"LoginDialog.UserNameError":{
+		"text":"Le nom d·utilisateur est incorrect, veuillez le ressaisir"
+	},
+	"LoginDialog.PassWordError":{
+		"text":"Le mot de passe est erroné, veuillez le ressaisir"
+	},
+	"LoginDialog.NoPermission":{
+		"text":"La caisse enregistreuse n·est pas autorisée à se connecter"
+	},
+	"LoginDialog.Tip0":{
+		"text":"L·opérateur n·est pas un caissier et n·est pas autorisé à se connecter au système"
+	},
+	"LoginDialog.Tip1":{
+		"text":"L·opérateur n·a pas de moyen de paiement et n·est pas autorisé à se connecter au système!"
+	},
+	"DownMasterData":{
+		"title":"programme d·initialisation"
+	},
+	"DownMasterData.SystemInitialization":{
+		"text":"Initialisation, veuillez patienter..."
+	},
+	"DownMasterData.CashBox":{
+		"text":" tirelire "
+	},
+	"DownMasterData.SecondDisplay":{
+		"text":"Affichage client"
+	},
+	"DownMasterData.Printer":{
+		"text":"Imprimante"
+	},
+	"DownMasterData.Network":{
+		"text":"Réseau"
+	},
+	"DownMasterData.OfflineData":{
+		"text":"Télécharger les données hors connexion"
+	},
+	"DownMasterData.DownloadSalesRules":{
+		"text":"Télécharger les règles de promotion"
+	},
+	"DownMasterData.LoadingRules":{
+		"text":"Démarrer le moteur de règles"
+	},
+	"DownMasterData.UploadSales":{
+		"text":"Télécharger la commande au détail"
+	},
+	"VipDialog":{
+		"title":"Informations sur la carte de membre"
+	},
+	"VipDialog.CardNumber":{
+		"text":"numéro de carte"
+	},
+	"VipDialog.Tip":{
+		"text":"【Entrer】OK 【ESC】Annuler et effacer les informations du membre"
+	},
+	"VipDialog.CardNumberError":{
+		"text":"Erreur de carte de membre, veuillez saisir à nouveau"
+	},
+	"VipDialog.PassWordErrort":{
+		"text":"Le mot de passe est erroné, veuillez le ressaisir"
+	},
+	"VipDialog.CardExpiration":{
+		"text":"La carte de membre a expiré et ne peut pas être utilisée!"
+	},
+	"AutreDialogue":{
+		"title":"Option de retour des ventes"
+	},
+	"OtherDialog.Tip":{
+		"text":"【ESC】Retour 【ENTER】OK"
+	},
+	"OtherDialog.Tip0":{
+		"text":"Retour des documents"
+	},
+	"OtherDialog.Tip1":{
+		"text":"Retour de marchandise"
+	},
+	"OtherDialog.Tip2":{
+		"text":"Réimprimer petit ticket"
+	},
+	"OtherDialog.Tip3":{
+		"text":"Statistiques de requête"
+	},
+	"OtherDialog.Tip4":{
+		"text":"Ouvrir la caisse"
+	},
+	"OtherDialog.Tip5":{
+		"text":"Commutation de réseau"
+	},
+	"OtherDialog.Tip6":{
+		"text":"Changement d·adresse de service"
+	},
+	"SalesReturnDesk":{
+		"Titre":""
+	},
+	"SalesReturnDesk.OrderNo":{
+		"text":"Veuillez entrer le numéro de suivi:"
+	},
+	"SalesReturnDesk.EnterGoods":{
+		"text":"Veuillez saisir le produit:"
+	},
+	"SalesReturnDesk.GoodsCodeError":{
+		"text":"Le code produit que vous avez entré est incorrect"
+	},
+	"SalesReturnDesk.NoPermission":{
+		"text":"L·opérateur n·a aucun moyen de collecter de l·argent et ne peut pas collecter de l·argent!"
+	},
+	"SalesReturnDesk.Tip":{
+		"text":"[Esc]Retour\t\t[F1]Remboursement\t\t[F2]Sélectionner les marchandises retournées\t\t[F4]Supprimer les marchandises non sélectionnées"
+	},
+	"SalesReturnDesk.Grid":{
+		"columns":[
+			"Touche de raccourci",
+			"Sélectionner",
+			"Numéro de commande",
+			"Code à barres de la marchandise",
+			"Nom du produit",
+			"Quantité",
+			"Prix unitaire",
+			"Montant"
+		]
+	},
+	"SalesReturnDesk.Tip0":{
+		"text":"Voulez-vous vous retirer des ventes et retourner?"
+	},
+	"SalesReturnDesk.Tip1":{
+		"text":"Confirmer la vente de retour?"
+	},
+	"SalesReturnDesk.Tip2":{
+		"text":"La commande au détail n·existe pas et les retours ne sont pas autorisés!"
+	},
+	"SalesReturnDesk.Tip3":{
+		"text":"Les points de la carte de membre [%s] [%s] sont inférieurs aux points remboursables [%s], veuillez recharger les points et retourner!"
+	},
+	"SalesReturnDesk.Tip4":{
+		"text":"Le solde de la valeur stockée [%s] de la carte de membre [%s] est inférieur à la valeur stockée remboursable [%s], veuillez recharger la valeur stockée du membre et la retourner!"
+	},
+	"SalesReturnDesk.Tip5":{
+		"text":"Le coupon [%s] émis par cette commande a été utilisé par la commande au détail [%s]. Veuillez rembourser la commande au détail [%s] avant d·exécuter la commande au détail!"
+	},
+	"SalesReturnDesk.Tip6":{
+		"text":"La commande au détail n·a pas d·informations de vente correspondantes et les retours ne sont pas autorisés!"
+	},
+	"SalesReturnDesk.Tip7":{
+		"text":"Il n·y a pas d·article remboursable"
+	},
+	"SalesReturnDesk.Tip8":{
+		"text":"Cette commande au détail utilise un coupon de réduction, et les retours partiels ne sont pas autorisés, seule la commande entière peut être retournée!"
+	},
+	"SalesReturnDesk.Tip9":{
+		"text":"La quantité du produit ne peut pas être modifiée à une décimale!"
+	},
+	"SalesReturnDesk.Tip10":{
+		"text":"La quantité retournée ne peut pas être inférieure à 0"
+	},
+	"SalesReturnDesk.Tip11":{
+		"text":"La quantité retournée ne peut pas être supérieure à la quantité du produit"
+	},
+	"SalesReturnDesk.Tip12":{
+		"text":"Ce produit a un produit combiné, voulez-vous vendre le produit combiné?"
+	},
+	"SalesReturnDesk.Tip13":{
+		"text":"Le paramètre du système 393 est incorrect, veuillez contacter l·administrateur!"
+	},
+	"SalesReturnDesk.Tip14":{
+		"text":"Les informations sur le produit ne sont pas définies, veuillez définir les informations pertinentes du produit et rembourser après l·avoir défini."
+	},
+	"SalesReturnDesk.Tip15":{
+		"text":"Il n·y a pas de sélection de produits remboursables"
+	},
+	"RePrintDialog":{
+		"title":"Réimprimer petit ticket"
+	},
+	"RePrintDialog.EnterOderNo":{
+		"text":"Veuillez entrer le numéro de suivi ou le numéro de carte de membre"
+	},
+	"RePrintDialog.Grid":{
+		"columns":[
+			"Numéro de commande au détail",
+			"Numéro de carte de membre",
+			"Montant des ventes",
+			"DONNÉES"
+		]
+	},
+	"RePrintDialog.Tip":{
+		"text":"[Esc]Return\t\t[Enter]OK\t\t【↑↓】Select"
+	},
+	"RePrintDialog.Tip0":{
+		"text":"Si imprimer un petit ticket"
+	},
+	"RePrintDialog.Tip1":{
+		"text":"(Réimprimer petit ticket)"
+	},
+	"CxtjDialog":{
+		"title":"Statistiques de requête"
+	},
+	"CxtjDialog.GoodsCode":{
+		"text":"Code à barres du produit"
+	},
+	"CxtjDialog.GoodsPrice":{
+		"text":"Prix unitaire de vente"
+	},
+	"CxtjDialog.GoodsName":{
+		"text":"nom du produit"
+	},
+	"CxtjDialog.Stock":{
+		"text":"Quantité en stock"
+	},
+	"CxtjDialog.InventoryAmount":{
+		"text":"Montant de l·inventaire"
+	},
+	"CxtjDialog.Grid":{
+		"columns":[
+			"Type",
+			"Prix",
+			"Objet"
+		]
+	},
+	"CxtjDialog.Tip":{
+		"text":"[ESC]Retour"
+	},
+	"CxtjDialog.Tip0":{
+		"text":"Il n·y a pas de données statistiques pour le code-barres du produit [%s]!"
+	},
+	"PassWordDialog":{
+		"title":"Entrez le mot de passe"
+	},
+	"PassWordDialog.PassWordText":{
+		"text":"Mot de passe:"
+	},
+	"PassWordDialog.OkButton":{
+		"text":"Connexion [L]"
+	},
+	"PassWordDialog.CancelButton":{
+		"text":"Quitter [X]"
+	},
+	"PassWordDialog.EnterPassWord":{
+		"text":"Veuillez saisir le mot de passe"
+	},
+	"PassWordDialog.PassWordError":{
+		"text":"Le mot de passe est erroné, veuillez le ressaisir"
+	},
+	"NetworkChangeDialog":{
+		"Titre":""
+	},
+	"OptionServeurIPDialog":{
+		"Titre":""
+	},
+	"OptionServerIPDialog.Grid":{
+		"columns":[
+			"Touche de raccourci",
+			"Nom du serveur",
+			"IP"
+		]
+	},
+	"OptionServerIPDialog.Tip":{
+		"text":"Invite: touche de raccourci pour sélectionner le serveur, appuyez sur Entrée pour confirmer."
+	},
+	"OptionServeurIPDialog.Host":{
+		"text":"Service actuel: %s"
+	},
+	"OptionServerIPDialog.Tip0":{
+		"text":"Voulez-vous basculer sur le serveur actuel?"
+	},
+	"OptionServerIPDialog.Tip1":{
+		"text":"L·encodage du fichier de configuration rms.config est incorrect, veuillez contacter l·administrateur !"
+	},
+	"OptionServerIPDialog.Tip2":{
+		"text":"La modification a échoué"
+	},
+	"OptionServerIPDialog.Tip3":{
+		"text":"Impossible d·écrire le fichier de configuration cette fois"
+	},
+	"OptionServerIPDialog.Tip4":{
+		"text":"Modifié avec succès!"
+	},
+	"Dialogue de marchandises":{
+		"title":"Demander des informations sur le produit"
+	},
+	"GoodsDialog.GoodsCode":{
+		"text":"Nom du produit ou code-barres"
+	},
+	"GoodsDialog.Grid":{
+		"columns":[
+			"Code-barres",
+			"Nom du produit",
+			"Modèle de spécification",
+			"Unité",
+			"Prix unitaire",
+			"Prix Préférentiel",
+			"Prix membre"
+		]
+	},
+	"GoodsDialog.Tip":{
+		"text":"【Entrer】OK ESC】Annuler"
+	},
+	"GoodsDialog.drspxxDataHint":{
+		"text":"Demander des informations sur le produit"
+	},
+	"CashDialog":{
+		"Titre":""
+	},
+	"CashDialog.HeaderPanel.Payment":{
+		"text":"À recevoir"
+	},
+	"CashDialog.HeaderPanel.SurplusPaymentAmt":{
+		"text":"à recevoir"
+	},
+	"CashDialog.HeaderPanel.Discount":{
+		"text":"Trouver le changement"
+	},
+	"CashDialog.HeaderPanel.GiveChange":{
+		"text":"Réduction"
+	},
+	"CashDialog.HeaderPanel.AlreadyPaymentAmt":{
+		"text":"Reçu"
+	},
+	"CashDialog.HeaderPanel.Discount1":{
+		"text":"Déduction en espèces"
+	},
+	"CashDialog.HeaderPanel.ReturnStoredValue":{
+		"text":"Renvoyer la valeur stockée"
+	},
+	"CashDialog.HeaderPanel.PaymentAmtTip":{
+		"text":"Veuillez saisir le montant du paiement"
+	},
+	"CashDialog.HeaderPanel.PaymentAmtError":{
+		"text":"Le montant du paiement que vous avez entré est incorrect"
+	},
+	"CashDialog.HeaderPanel.PaymentAmtError1":{
+		"text":"Le montant réel reçu ne correspond pas au montant à recevoir!"
+	},
+	"CashDialog.HeaderPanel.PaymentAmtErro2":{
+		"text":"Montant du paiement: %s et montant à recevoir: %s ne correspondent pas!"
+	},
+	"CashDialog.HeaderPanel.PaymentAmtError3":{
+		"text":"Le montant du paiement de %s ne peut pas être supérieur au montant à recevoir!"
+	},
+	"CashDialog.HeaderPanel.PaymentAmtError4":{
+		"text":"%s mode de paiement ne permet pas de modifier le montant du paiement!"
+	},
+	"CashDialog.CenterPanel.PaymentList":{
+		"columns":[
+			"Code de méthode de réception",
+			"Touche de raccourci",
+			"Mode de paiement",
+			"Montant reçu",
+			"Méthode du montant",
+			"Marque de caisse"
+		]
+	},
+	"CashDialog.CenterPanel.NoPermission":{
+		"text":"L·opérateur n·a aucun moyen de collecter de l·argent et ne peut pas collecter de l·argent!"
+	},
+	"CashDialog.FooterPanel.Tip":{
+		"text":"【Entrée】OK 【Esc】Annuler 【F12】Modifier le prix de l·ensemble de la commande"
+	},
+	"CashDialog.FooterPanel.CollectMoney":{
+		"text":"Voulez-vous recevoir le paiement?"
+	},
+	"CashDialog.FooterPanel.SystemInfo":{
+		"text":"Informations système"
+	},
+	"CashDialog.FooterPanel.Tip0":{
+		"text":"La facture a été générée, veuillez continuer à percevoir le paiement après [l·intégralité de la facture est annulée]!"
+	},
+	"CashDialog.FooterPanel.Tip1":{
+		"text":"La réception de la commande au détail [%s] a échoué!"
+	},
+	"CashDialog.FooterPanel.Tip2":{
+		"text":"Département: %s ne conserve pas l·ID de paiement à trois parties de la plate-forme"
+	},
+	"CashDialog.FooterPanel.Tip3":{
+		"text":"Commande au détail [%s] Alipay n·a pas réussi à payer! Veuillez vérifier avant de recevoir le paiement!"
+	},
+	"CashDialog.FooterPanel.Tip4":{
+		"text":"Commande au détail [%s] Le paiement WeChat n·a pas abouti! Veuillez vérifier avant de recevoir le paiement!"
+	},
+	"CashDialog.tip0":{
+		"text":"Le paiement WeChat de la commande au détail a été effectué avec succès et l·opération de retrait n·est pas autorisée. Veuillez collecter le paiement!"
+	},
+	"CashDialog.tip1":{
+		"text":"Le paiement unique Alipay au détail a été effectué avec succès et l·opération de retrait n·est pas autorisée. Veuillez collecter le paiement!"
+	},
+	"CashDialog.tip2":{
+		"text":"La valeur stockée du membre unique au détail a été stockée avec succès et l·opération de retrait n·est pas autorisée, veuillez collecter l·argent!"
+	},
+	"CashDialog.tip3":{
+		"text":"Le paiement reçu n·est pas autorisé à changer le prix"
+	},
+	"DraftDialog":{
+		"Titre":""
+	},
+	"DraftDialog.Grid":{
+		"columns":[
+			"Numéro de commande",
+			"Numéro de carte de membre",
+			"Nom du membre",
+			"Montant total",
+			"Quantité totale"
+		]
+	},
+	"DraftDialog.Tip":{
+		"text":"【Entrer】OK ESC】Annuler"
+	},
+	"DraftDialog.OrderInfo":{
+		"text":"Invoquer les informations en attente"
+	},
+	"AuthorizeDialog":{
+		"title":"Modifier l·autorisation de prix"
+	},
+	"AuthorizeDialog.userNameLabel":{
+		"text":"Utilisateur:"
+	},
+	"AuthorizeDialog.passWordLabel":{
+		"text":"Mot de passe:"
+	},
+	"AuthorizeDialog.okButton":{
+		"text":"Confirmer [S]"
+	},
+	"AuthorizeDialog.cancelButton":{
+		"text":"Annuler [C]"
+	},
+	"AuthorizeDialog.changePriceLabel":{
+		"text":"Prix:"
+	},
+	"AuthorizeDialog.changePriceErrorHint":{
+		"text":"Veuillez entrer le prix modifié correct"
+	},
+	"AuthorizeDialog.userNameNotNullHint":{
+		"text":"Veuillez entrer le nom d·utilisateur autorisé"
+	},
+	"AuthorizeDialog.passWordNotNullHint":{
+		"text":"Veuillez saisir le mot de passe"
+	},
+	"AuthorizeDialog.userNameNotExistsHint":{
+		"text":"Le nom d·utilisateur autorisé est erroné, veuillez le ressaisir"
+	},
+	"AuthorizeDialog.userNameNoRightHint":{
+		"text":"Cette personne de connexion n·a pas la permission de modifier les prix"
+	},
+	"AuthorizeDialog.passWordNotMatchHint":{
+		"text":"Le mot de passe est erroné, veuillez le ressaisir"
+	},
+	"AuthorizeDialog.posszNotExistsHint":{
+		"text":"La caisse enregistreuse n·est pas autorisée à se connecter"
+	},
+	"CashDesk.CenterPanel.ShopName":{
+		"text":"Nom du magasin:"
+	},
+	"CashDesk.CenterPanel.DeviceNo":{
+		"text":"ID de point de vente:"
+	},
+	"CashDesk.CenterPanel.LoginTime":{
+		"text":"Temps de connexion:"
+	},
+	"I18nText.OrderNo":{
+		"text":"Formulaire Non:"
+	},
+	"I18nText.OkButton":{
+		"text":"【Enter】Confirm"
+	},
+	"I18nText.CancelButton":{
+		"text":"【ESC】Cancel"
+	},
+	"I18nText.OrderRejected":{
+		"text":"Form Return"
+	},
+	"I18nText.GoodsRejected":{
+		"text":"Comm Return"
+	},
+	"I18nText.Reprint":{
+		"text":"Bill Replay"
+	},
+	"I18nText.ReportForm":{
+		"text":"Statistiques de requête"
+	},
+	"I18nText.CashBox":{
+		"text":"Caisse ouverte"
+	},
+	"I18nText.NetworkSwitch":{
+		"text":"Commutateur de réseau"
+	},
+	"I18nText.IPSwitch":{
+		"text":"Commutateur d·adresse de serveur"
+	},
+	"I18nText.EnterOrderNo":{
+		"text":"Formulaire de saisie Non.:"
+	},
+	"I18nText.EnterGoodsCode":{
+		"text":"Input Comm:"
+	},
+	"I18nText.Memory":{
+		"text":"Max RAM: %d M:"
+	},
+	"I18nText.UsedMemory":{
+		"text":"Used RAM: %.2f %%"
+	},
+	"I18nText.DateFormatText":{
+		"text":"yyyy-MM-dd，E"
+	},
+	"I18nText.LastOrderInfo":{
+		"text":"Previous Info"
+	},
+	"I18nText.OrderInformation":{
+		"text":"Form Info"
+	},
+	"I18nText.MemberInfo":{
+		"text":"VIP info"
+	},
+	"CashDesk.CenterPanel.ShopName_Tip":{
+		"text":"Display Store Name"
+	},
+	"CashDesk.CenterPanel.DeviceNo_Tip":{
+		"text":"Display POS ID"
+	},
+	"CashDesk.CenterPanel.LoginTime_Tip":{
+		"text":"Display Login Time"
+	},
+	"CashDesk.CenterPanel.SalesClerk_Tip":{
+		"text":"Display FSM"
+	},
+	"CashDesk.CenterPanel.Cashier_Tip":{
+		"text":"Display Cashier"
+	},
+	"OtherDialog.Grid":{
+		"columns":[
+			"Shortcut Key",
+			"Menu Name"
+		]
+	},
+	"QueryLocalDataDialog":{
+		"title":"Upload Data"
+	},
+	"QueryLocalDataDialog.Grid":{
+		"columns":[
+			"Retail Form No.",
+			"Local Status"
+		]
+	},
+	"QueryLocalDataDialog.Info":{
+		"text":"【F10】Upload Data\t\t【ESC】Quit"
+	},
+	"QueryLocalDataDialog.Tip0":{
+		"text":"No data need to be upload"
+	},
+	"QueryLocalDataDialog.Tip1":{
+		"text":"Unupload"
+	},
+	"QueryLocalDataDialog.Tip2":{
+		"text":"Upload Successfull!"
+	},
+	"QueryLocalDataDialog.Tip3":{
+		"text":"Upload Successfull!"
+	},
+	"I18nText.Tip1":{
+		"text":"Please define different Comm"
+	},
+	"I18nText.Tip2":{
+		"text":"Comm【%s】【%s】stock no enough"
+	},
+	"I18nText.Tip3":{
+		"text":"Policy loading failed, system will quit"
+	},
+	"I18nText.Tip4":{
+		"text":"Add this coupon already"
+	},
+	"I18nText.Tip5":{
+		"text":"System running, do not running duplicate."
+	},
+	"I18nText.Tip6":{
+		"text":"Return Failed!"
+	},
+	"I18nText.Tip7":{
+		"text":"No permission，Permission No.:【%s】"
+	},
+	"I18nText.Tip8":{
+		"text":"Issue Discount Coupon？"
+	},
+	"I18nText.Tip9":{
+		"text":"Tips"
+	},
+	"CashDesk.HeaderPanel.Tip1":{
+		"text":"Comm[%s]sale Qty greater than 1000，confirm it!"
+	},
+	"CashDesk.HeaderPanel.Tip2":{
+		"text":"Qty can not be decimal！"
+	},
+	"CashDesk.Tip4":{
+		"text":"No Promotion at all！"
+	},
+	"SalesReturnCashDialog":{
+		"title":""
+	},
+	"SalesReturnCashDialog.ShouldReturnAmt":{
+		"text":" Should Return Amount"
+	},
+	"SalesReturnCashDialog.ActualReturnAmt":{
+		"text":"Actual Return Amount"
+	},
+	"SalesReturnCashDialog.MayReturnAmt":{
+		"text":"Can be Return Amount"
+	},
+	"SalesReturnCashDialog.ReturnAmt":{
+		"text":"Return Amount"
+	},
+	"SalesReturnCashDialog.Tip":{
+		"text":"【Esc】Back\t\t【Enter】Confirm"
+	},
+	"SalesReturnCashDialog.Grid":{
+		"columns":[
+			"Shortcut Key",
+			"Return Mode",
+			"Can be Return Amount",
+			"Return Amount",
+			"Amount Mode"
+		]
+	},
+	"SalesQueryDialog":{
+		"title":""
+	},
+	"SalesQueryDialog.Title":{
+		"text":"Query Sales"
+	},
+	"SalesQueryDialog.Grid":{
+		"columns":[
+			"Form No.",
+			"Comm Name",
+			"Qty",
+			"Price",
+			"Amount",
+			"Sale Date"
+		]
+	},
+	"SalesQueryDialog.ReturnButton":{
+		"text":"【ESC】Back"
+	},
+	"SalesQueryDialog.SalesInquiry":{
+		"text":"Query Sales"
+	},
+	"SalesQueryDialog.TotalAmtInfo":{
+		"text":"Total Amount"
+	},
+	"SalesReturnCashDialog.Tip0":{
+		"text":"Confirm to return"
+	},
+	"SalesReturnCashDialog.Tip1":{
+		"text":"Offline mode now, can not operate refund! Contact administrator!"
+	},
+	"SalesReturnCashDialog.Tip2":{
+		"text":"Refund Failed!"
+	},
+	"SalesReturnCashDialog.Tip3":{
+		"text":"Network error, refund failed!"
+	},
+	"SalesReturnCashDialog.Tip4":{
+		"text":"Refund amount can not greater then amount of refundable"
+	},
+	"SalesReturnCashDialog.Tip5":{
+		"text":"The total amount of refund can not be greater than the amount of refundable"
+	},
+	"SalesReturnCashDialog.Tip6":{
+		"text":"Refund amount different with refundable amount"
+	},
+	"SalesclerkDialog":{
+		"title":"FSM Information"
+	},
+	"SalesclerkDialog.userNameLabel":{
+		"text":"FSM："
+	},
+	"SalesclerkDialog.okButton":{
+		"text":"Confirm[S]"
+	},
+	"SalesclerkDialog.cancelButton":{
+		"text":"Cancel[C]"
+	},
+	"SalesclerkDialog.userNameNotNullHint":{
+		"text":"Input FSM"
+	},
+	"SalesclerkDialog.userNameNotExistsHint":{
+		"text":"FSM correct, input again please"
+	},
+	"I18nText.Tip10":{
+		"text":"Please input Comm Name or SN first!"
+	},
+	"I18nText.DailyReport":{
+		"text":"Daily Report"
+	},
+	"DailyReportDialog":{
+		"title":"Daily Report"
+	},
+	"DailyReportDialog.SUM_CLASS_LABEL":{
+		"text":"Total SKU Sold"
+	},
+	"DailyReportDialog.SUM_ORDER_LABEL":{
+		"text":"No of Transactions"
+	},
+	"DailyReportDialog.SUM_SALES_NUM_LABEL":{
+		"text":"Sales Qty"
+	},
+	"DailyReportDialog.SUM_RETURN_NUM_LABEL":{
+		"text":"Return Qty"
+	},
+	"DailyReportDialog.SUM_AMT_LABEL":{
+		"text":"Total Daily Sales"
+	},
+	"DailyReportDialog.PAY_SALES_CASH_LABEL":{
+		"text":"Total Cash Sales"
+	},
+	"DailyReportDialog.PAY_RETURN_CASH_LABEL":{
+		"text":"Cash Return Amount"
+	},
+	"DailyReportDialog.PAY_SALES_POS_LABEL":{
+		"text":"Total POS Sales"
+	},
+	"DailyReportDialog.PAY_RETURN_POS_LABEL":{
+		"text":"POS Return Amount"
+	},
+	"DailyReportDialog.ORDER_AVERAGE_PRICE_LABEL":{
+		"text":"Average Transaction Value"
+	},
+	"DailyReportDialog.SUM_RETURN_AMT_LABEL":{
+		"text":"Total Return Quantity"
+	},
+	"DailyReportDialog.SUM_007301_NUM_LABEL":{
+		"text":"Total SP sold （007301）"
+	},
+	"SalesReturnQueryDialog":{
+		"title":""
+	},
+	"SalesReturnQueryDialog.Grid":{
+		"columns":[
+			"Form No.",
+			"VIP Name",
+			"Sale Amount",
+			"Date"
+		]
+	},
+	"SalesReturnQueryDialog.DateTipLabel":{
+		"text":"Only query today·s form ( F1 to Switch)："
+	},
+	"nom du produit":"Product Name",
+	"quantité":"Qty",
+	"Montant":"Amount",
+	"le total":"Total",
+	"I18nText.ProductSaleReport":{
+		"text":"Product Sale Report"
+	},
+	"ProductSaleReportDialog":{
+		"title":""
+	},
+	"ProductSaleReportDialog.TaxTextLabel":{
+		"text":"Tax"
+	},
+	"ProductSaleReportDialog.DateLabel":{
+		"text":"Date"
+	},
+	"ProductSaleReportDialog.SreachButton":{
+		"text":"Search"
+	},
+	"ProductSaleReportDialog.Model":{
+		"columns":[
+			"Product CL.",
+			"Total QTY",
+			"Total AMT",
+			"Total VAT"
+		]
+	},
+	"ProductSaleReportDialog.PrintButton":{
+		"text":"Print"
+	},
+	"ProductSaleReportDialog.Tip":{
+		"text":"No Data"
+	},
+	"商品名称":"nom du produit",
+	"数量":"quantité",
+	"金额":"Montant",
+	"合计":"le total",
+	"I18nText.StockTake":{
+		"text":"Inventaire"
+	},
+	"I18nText.Tip11":{
+		"text":"L·appel d·interface a échoué!"
+	},
+	"I18nText.Tip12":{
+		"text":"Succès！"
+	},
+	"CashDesk":{
+		"title":"JL POS V10"
+	},
+	"CashDesk.Tip1":{
+		"text":"Le réseau ou le serveur revient à la normale, et le mode de vente en ligne commence"
+	},
+	"CashDesk.Tip2":{
+		"text":"Impossible de se connecter à Internet, continuer les ventes hors ligne"
+	},
+	"OtherDialog":{
+		"title":"Option de retour des ventes"
+	},
+	"StocktakeDialog":{
+		"title":""
+	}
+}
