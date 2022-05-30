@@ -1,4 +1,4 @@
-Welcome to Banana Lifestyle
+Welcome to Banana Home
 
 
 Company : DIGITALLMALL DEVELOPMENT GHANA LIMITED
