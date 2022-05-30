@@ -21,13 +21,13 @@
 		"text":"Change"
 	},
 	"CashDesk.HeaderPanel.Cashier":{
-		"text":"Cashier��%s"
+		"text":"Cashier：%s"
 	},
 	"CashDesk.HeaderPanel.GoodsName":{
-		"text":"Comm Name��%s"
+		"text":"Comm Name：%s"
 	},
 	"CashDesk.HeaderPanel.GoodsPrice":{
-		"text":"Comm Price��%s"
+		"text":"Comm Price：%s"
 	},
 	"CashDesk.HeaderPanel.ScannerGoods":{
 		"text":"Scan or input Comm No."
@@ -54,7 +54,7 @@
 		"text":"Previous Info"
 	},
 	"CashDesk.HeaderPanel.OrderNo":{
-		"text":"Form No.:"
+		"text":"Form No:"
 	},
 	"CashDesk.HeaderPanel.Number":{
 		"text":"Qty:"
@@ -144,10 +144,10 @@
 		"text":"Quit System？"
 	},
 	"CashDesk.systemNotQuitHint":{
-		"text":"Exsit Comm sale, can not quit system!"
+		"text":"Exsit Comm sale, can not quit system"
 	},
 	"CashDesk.skfsNotNullHint":{
-		"text":"Operator no receive permission, can not receive��"
+		"text":"Operator no receive permission, can not receive"
 	},
 	"CashDesk.Tip0":{
 		"text":"Network failed, begin offline sale"
@@ -156,10 +156,10 @@
 		"text":"Network working, restore online sale"
 	},
 	"CashDesk.Tip2":{
-		"text":"Try online failed��continue offline sale"
+		"text":"Try online failed,continue offline sale"
 	},
 	"CashDesk.Tip3":{
-		"text":"Sale amount is 0 of Comm can not call in��"
+		"text":"Sale amount is 0 of Comm can not call in"
 	},
 	"LoginDialog":{
 		"title":"Login"
@@ -246,7 +246,7 @@
 		"title":"Return Options"
 	},
 	"OtherDialog.Tip":{
-		"text":"��ESC��Return  ��ENTER��Confirm"
+		"text":"【ESC】Return 【ENTER】Confirm"
 	},
 	"OtherDialog.Tip0":{
 		"text":"Form Return"
@@ -282,10 +282,10 @@
 		"text":"Comm No. incorrect"
 	},
 	"SalesReturnDesk.NoPermission":{
-		"text":"Operator no permission, can not receive��"
+		"text":"Operator no permission, can not receive"
 	},
 	"SalesReturnDesk.Tip":{
-		"text":"��Esc��Return\t\t��F1��Refund\t\t��F2��Select Return Comm\t\t��F4��Delete Comm No Select"
+		"text":"【Esc】Return\t\t【F1】Refund\t\t【F2】Select Return Comm\t\t【F4】Delete Comm No Select"
 	},
 	"SalesReturnDesk.Grid":{
 		"columns":[
@@ -306,28 +306,28 @@
 		"text":"Confirm Sale Return?"
 	},
 	"SalesReturnDesk.Tip2":{
-		"text":"No Retail form, can not return��"
+		"text":"No Retail form, can not return"
 	},
 	"SalesReturnDesk.Tip3":{
-		"text":"VIP Card[%s]Points[%s]Lower than return points[%s],please recharge points��"
+		"text":"VIP Card[%s]Points[%s]Lower than return points[%s],please recharge points"
 	},
 	"SalesReturnDesk.Tip4":{
-		"text":"VIP card[%s]recharge balance[%s]lower than returned recharge[%s],please recharge VIP and return��"
+		"text":"VIP card[%s]recharge balance[%s]lower than returned recharge[%s],please recharge VIP and return"
 	},
 	"SalesReturnDesk.Tip5":{
-		"text":"Discount coupon[%s]used by [%s]��please return the [%s] and operate the retail form again��"
+		"text":"Discount coupon[%s]used by [%s],please return the [%s] and operate the retail form again"
 	},
 	"SalesReturnDesk.Tip6":{
-		"text":"Retail form no sales infomation, can not return��"
+		"text":"Retail form no sales infomation, can not return"
 	},
 	"SalesReturnDesk.Tip7":{
 		"text":"No Comm can be return"
 	},
 	"SalesReturnDesk.Tip8":{
-		"text":"This retial form use discount coupons. Can not return by stages, but only by whole form ��"
+		"text":"This retial form use discount coupons. Can not return by stages, but only by whole form "
 	},
 	"SalesReturnDesk.Tip9":{
-		"text":"This Comm Qty can not modify to decimal��"
+		"text":"This Comm Qty can not modify to decimal"
 	},
 	"SalesReturnDesk.Tip10":{
 		"text":"Return Qty can not lower than 0"
@@ -339,7 +339,7 @@
 		"text":"There is a portfolio Comm in this Comm. Will the portfolio be sold back?"
 	},
 	"SalesReturnDesk.Tip13":{
-		"text":"The system 393 parameters are incorrect. Please contact the administrator��"
+		"text":"The system 393 parameters are incorrect. Please contact the administrator"
 	},
 	"SalesReturnDesk.Tip14":{
 		"text":"There is no definition of wiped Comm information. Please define wiped Comm information before refund."
@@ -362,7 +362,7 @@
 		]
 	},
 	"RePrintDialog.Tip":{
-		"text":"��Esc��Return\t\t��Enter��Confirm\t\t��������Select"
+		"text":"【Esc】Return\t\t【Ente】Confirm\t\t【↑↓】Select"
 	},
 	"RePrintDialog.Tip0":{
 		"text":"Print Receipt"
@@ -396,16 +396,16 @@
 		]
 	},
 	"CxtjDialog.Tip":{
-		"text":"��ESC��Return"
+		"text":"【ESC】Return"
 	},
 	"CxtjDialog.Tip0":{
-		"text":"No exsit Comm SN[%s]Data��"
+		"text":"No exsit Comm SN[%s]Data"
 	},
 	"PassWordDialog":{
 		"title":"Input password"
 	},
 	"PassWordDialog.PassWordText":{
-		"text":"Password��"
+		"text":"Password:"
 	},
 	"PassWordDialog.OkButton":{
 		"text":"Login[L]"
@@ -433,16 +433,16 @@
 		]
 	},
 	"OptionServerIPDialog.Tip":{
-		"text":"Tips��Shortcut key selection server, return confirmation��"
+		"text":"Tips：Shortcut key selection server, return confirmation"
 	},
 	"OptionServerIPDialog.Host":{
-		"text":"This Service��%s"
+		"text":"This Service：%s"
 	},
 	"OptionServerIPDialog.Tip0":{
 		"text":"Switch this Server?"
 	},
 	"OptionServerIPDialog.Tip1":{
-		"text":"rms.config configuration failed��contact administrator��"
+		"text":"rms.config configuration failed，contact administrator！"
 	},
 	"OptionServerIPDialog.Tip2":{
 		"text":"Modify Failed"
@@ -471,7 +471,7 @@
 		]
 	},
 	"GoodsDialog.Tip":{
-		"text":"��Enter��Confirm ��ESC��Cancel"
+		"text":"[Enter]Confirm [ESC]Cancel"
 	},
 	"GoodsDialog.drspxxDataHint":{
 		"text":"Query Comm Info"
@@ -507,13 +507,13 @@
 		"text":"Receive amount incorrect!"
 	},
 	"CashDialog.HeaderPanel.PaymentAmtError1":{
-		"text":"received amount different with receivable amount��"
+		"text":"received amount different with receivable amount"
 	},
 	"CashDialog.HeaderPanel.PaymentAmtErro2":{
-		"text":"Pay amount:%sdifferent with receivable amount:%s��"
+		"text":"Pay amount:%sdifferent with receivable amount:%s"
 	},
 	"CashDialog.HeaderPanel.PaymentAmtError3":{
-		"text":"%sPay amount can not greater than receivable amount��"
+		"text":"%sPay amount can not greater than receivable amount"
 	},
 	"CashDialog.HeaderPanel.PaymentAmtError4":{
 		"text":"%sReceive mode can not change receive price"
@@ -529,40 +529,40 @@
 		]
 	},
 	"CashDialog.CenterPanel.NoPermission":{
-		"text":"Operator no permission, can not receive��"
+		"text":"Operator no permission, can not receive"
 	},
 	"CashDialog.FooterPanel.Tip":{
-		"text":"��Enter��Confirm ��Esc��Cancel ��F12��Whole Change"
+		"text":"[Enter]Confirm [Esc]Cancel [F12]Whole Change"
 	},
 	"CashDialog.FooterPanel.CollectMoney":{
-		"text":"Confirm Receive��"
+		"text":"Confirm Receive"
 	},
 	"CashDialog.FooterPanel.SystemInfo":{
 		"text":"System Info"
 	},
 	"CashDialog.FooterPanel.Tip0":{
-		"text":"Form produced��please cancel and receive��"
+		"text":"Form produced,please cancel and receive"
 	},
 	"CashDialog.FooterPanel.Tip1":{
-		"text":"Retail[%s]paid failed��"
+		"text":"Retail[%s]paid failed"
 	},
 	"CashDialog.FooterPanel.Tip2":{
 		"text":"Dept:%sNo third platform pay"
 	},
 	"CashDialog.FooterPanel.Tip3":{
-		"text":"Retail[%s]Alipay paid failed! Check and paid again��"
+		"text":"Retail[%s]Alipay paid failed! Check and paid again"
 	},
 	"CashDialog.FooterPanel.Tip4":{
-		"text":"Retail[%s]Wechat paid failed��Check and paid again��"
+		"text":"Retail[%s]Wechat paid failed.Check and paid again"
 	},
 	"CashDialog.tip0":{
-		"text":"Wechat paid successful, can not quit and operate receive��"
+		"text":"Wechat paid successful, can not quit and operate receive"
 	},
 	"CashDialog.tip1":{
-		"text":"Alipay paid successful, can not quit and operate receive��"
+		"text":"Alipay paid successful, can not quit and operate receive"
 	},
 	"CashDialog.tip2":{
-		"text":"VIP recharge successful, can not quit and operate receive��"
+		"text":"VIP recharge successful, can not quit and operate receive"
 	},
 	"CashDialog.tip3":{
 		"text":"Received can not change price"
@@ -580,7 +580,7 @@
 		]
 	},
 	"DraftDialog.Tip":{
-		"text":"��Enter��Confirm��ESC��Cancel"
+		"text":"[Enter]Confirm [ESC]Cancel"
 	},
 	"DraftDialog.OrderInfo":{
 		"text":"Call Hangup Info"
@@ -589,10 +589,10 @@
 		"title":"Change Price Authorization"
 	},
 	"AuthorizeDialog.userNameLabel":{
-		"text":"Username��"
+		"text":"Username:"
 	},
 	"AuthorizeDialog.passWordLabel":{
-		"text":"Password��"
+		"text":"Password:"
 	},
 	"AuthorizeDialog.okButton":{
 		"text":"Confirm[S]"
@@ -601,7 +601,7 @@
 		"text":"Cancel[C]"
 	},
 	"AuthorizeDialog.changePriceLabel":{
-		"text":"Price��"
+		"text":"Price:"
 	},
 	"AuthorizeDialog.changePriceErrorHint":{
 		"text":"Input correct price"
@@ -637,10 +637,10 @@
 		"text":"Form No:"
 	},
 	"I18nText.OkButton":{
-		"text":"��Enter��Confirm"
+		"text":"[Enter]Confirm"
 	},
 	"I18nText.CancelButton":{
-		"text":"��ESC��Cancel"
+		"text":"[ESC]Cancel"
 	},
 	"I18nText.OrderRejected":{
 		"text":"Form Return"
@@ -676,7 +676,7 @@
 		"text":"Used RAM: %.2f %%"
 	},
 	"I18nText.DateFormatText":{
-		"text":"yyyy-MM-dd��E"
+		"text":"dd-MMM-yyyy,EEE"
 	},
 	"I18nText.LastOrderInfo":{
 		"text":"Previous Info"
@@ -718,7 +718,7 @@
 		]
 	},
 	"QueryLocalDataDialog.Info":{
-		"text":"��F10��Upload Data\t\t��ESC��Quit"
+		"text":"[F10]Upload Data\t\t[ESC]Quit"
 	},
 	"QueryLocalDataDialog.Tip0":{
 		"text":"No data need to be upload"
@@ -736,7 +736,7 @@
 		"text":"Please define different Comm"
 	},
 	"I18nText.Tip2":{
-		"text":"Comm��%s����%s��stock no enough"
+		"text":"Comm[%s] [%s]stock no enough"
 	},
 	"I18nText.Tip3":{
 		"text":"Policy loading failed, system will quit"
@@ -751,22 +751,22 @@
 		"text":"Return Failed!"
 	},
 	"I18nText.Tip7":{
-		"text":"No permission��Permission No.:��%s��"
+		"text":"No permission.Permission No.:[%s]"
 	},
 	"I18nText.Tip8":{
-		"text":"Issue Discount Coupon��"
+		"text":"Issue Discount Coupon?"
 	},
 	"I18nText.Tip9":{
 		"text":"Tips"
 	},
 	"CashDesk.HeaderPanel.Tip1":{
-		"text":"Comm[%s]sale Qty greater than 1000��confirm it!"
+		"text":"Comm[%s]sale Qty greater than 1000,confirm it!"
 	},
 	"CashDesk.HeaderPanel.Tip2":{
-		"text":"Qty can not be decimal��"
+		"text":"Qty can not be decimal"
 	},
 	"CashDesk.Tip4":{
-		"text":"No Promotion at all��"
+		"text":"No Promotion at all"
 	},
 	"SalesReturnCashDialog":{
 		"title":""
@@ -784,7 +784,7 @@
 		"text":"Return Amount"
 	},
 	"SalesReturnCashDialog.Tip":{
-		"text":"��Esc��Back\t\t��Enter��Confirm"
+		"text":"[Esc]Back\t\t[Enter]Confirm"
 	},
 	"SalesReturnCashDialog.Grid":{
 		"columns":[
@@ -812,7 +812,7 @@
 		]
 	},
 	"SalesQueryDialog.ReturnButton":{
-		"text":"��ESC��Back"
+		"text":"[ESC]Back"
 	},
 	"SalesQueryDialog.SalesInquiry":{
 		"text":"Query Sales"
@@ -845,7 +845,7 @@
 		"title":"FSM Information"
 	},
 	"SalesclerkDialog.userNameLabel":{
-		"text":"FSM��"
+		"text":"FSM:"
 	},
 	"SalesclerkDialog.okButton":{
 		"text":"Confirm[S]"
@@ -902,7 +902,7 @@
 		"text":"Total Return Quantity"
 	},
 	"DailyReportDialog.SUM_007301_NUM_LABEL":{
-		"text":"Total SP sold ��007301��"
+		"text":"Total SP sold [007301]"
 	},
 	"SalesReturnQueryDialog":{
 		"title":""
@@ -916,12 +916,12 @@
 		]
 	},
 	"SalesReturnQueryDialog.DateTipLabel":{
-		"text":"Only query today's form ( F1 to Switch)��"
+		"text":"Only query today's form ( F1 to Switch)"
 	},
-	"��Ʒ����":"Product Name",
-	"����":"Qty",
-	"���":"Amount",
-	"�ϼ�":"Total",
+	"商品名称":"Product Name",
+	"数量":"Qty",
+	"金额":"Amount",
+	"合计":"Total",
 	"I18nText.ProductSaleReport":{
 		"text":"Product Sale Report"
 	},
@@ -958,7 +958,7 @@
 		"text":"Port dispatch failed!"
 	},
 	"I18nText.Tip12":{
-		"text":"Success��"
+		"text":"Success"
 	},
 	"StocktakeDialog":{
 		"title":"Stocktake"
@@ -977,7 +977,7 @@
 		]
 	},
 	"CardDetailDialog.footLabel":{
-		"text":"��Enter��Ok ��Esc��Return ��F4��Cancel VIP"
+		"text":"[Enter]Ok [Esc]Return [F4]Cancel VIP"
 	},
 	"CardDetailDialog.khNotNullHint":{
 		"text":"stored value card cannot be empty!"
@@ -995,10 +995,10 @@
 		"text":"system information"
 	},
 	"CardDetailDialog.czkskjeHint":{
-		"text":"the balance of deposits is sufficient,no need to enter the stored value card��"
+		"text":"the balance of deposits is sufficient,no need to enter the stored value card"
 	},
 	"CardDetailDialog.Tip1":{
-		"text":"please enter the membership  stored-value card first��"
+		"text":"please enter the membership  stored-value card first"
 	},
 	"CardDetailDialog.Tip2":{
 		"text":"amount collected can not be larger than the balance of deposits"
@@ -1025,22 +1025,22 @@
 		]
 	},
 	"CouponDialog.footLabel":{
-		"text":"��Ok��Confirm ��Esc��Cancel"
+		"text":"[Ok]Confirm [Esc]Cancel"
 	},
 	"CouponDialog.pqhmNotNullHint":{
-		"text":"Ticket Number Not Allowed Empty��"
+		"text":"Ticket Number Not Allowed Empty"
 	},
 	"CouponDialog.pqmzZerosHint":{
-		"text":"The Face Value Balance Of Ticket Number That You Entered is 0��"
+		"text":"The Face Value Balance Of Ticket Number That You Entered is 0"
 	},
 	"CouponDialog.pqhmNotExistsHint":{
-		"text":"The Ticket Number That You Entered Incorrect��"
+		"text":"The Ticket Number That You Entered Incorrect"
 	},
 	"CouponDialog.pqhmNotExistsNum":{
-		"text":"This Face Value Card& Coupon used limit reached��"
+		"text":"This Face Value Card& Coupon used limit reached"
 	},
 	"CouponDialog.skYesOrNoHint":{
-		"text":"Whether Receivable��"
+		"text":"Whether Receivable"
 	},
 	"CouponDialog.systemHint":{
 		"text":"System Information"
@@ -1057,10 +1057,6 @@
 	"DailyReportDialog.PAY_SALES_MOMO_LABEL":{
 		"text":"Total MOMO Sales"
 	},
-	"商品名称":"",
-	"数量":"",
-	"金额":"",
-	"合计":"",
 	"CashDesk.HeaderPanel.BadOrder":{
 		"text":"Wait Upload Form:"
 	}
